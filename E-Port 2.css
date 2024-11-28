@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: ForestGreen;
+    overflow: hidden;
+    }
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: Cyan;
+}
+
+.content {
+    padding: 20px;
+}
+
+.section {
+    display: none; 
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.section:target {
+    display: block;
+}
+
+
